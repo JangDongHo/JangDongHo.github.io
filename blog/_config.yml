@@ -104,4 +104,4 @@ theme: Quiet
 deploy:
   type: git
   repo: https://github.com/JangDongHo/JangDongHo.github.io.git
-  branch: master
+  branch: main
