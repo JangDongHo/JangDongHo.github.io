@@ -1,5 +1,5 @@
 # Site settings
-title: "Dongho Jang Tech Blog"
+title: "dongho tech"
 description: "Dongho Jang Tech Blog"
 url: "https://jangdongho.github.io"
 
@@ -8,7 +8,7 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name: Dongho Jang
+  name: 장동호
   url: https://jangdongho.github.io
   email: donghoo158@gmail.com
 
