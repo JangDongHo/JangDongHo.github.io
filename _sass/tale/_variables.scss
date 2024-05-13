@@ -6,15 +6,16 @@ $grey-1: #979797 !default;
 $grey-2: #e5e5e5 !default;
 $grey-3: #f9f9f9 !default;
 $white: #fff !default;
-$blue: #4a9ae1 !default;
+$blue: #166dfa !default;
 $black: #000 !default;
 $shadow-color: rgba(8, 4, 4, 0.2) !default;
 $code-color: #bf616a !default;
 
 // Fonts
-$serif-primary: "Pretendard-Regular", "Libre Baskerville", "Times New Roman", Times, serif !default;
-$serif-secondary: "Pretendard-Regular", "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif !default;
-$sans-serif: "Pretendard-Medium", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif !default;
+$pretendard-light: "Pretendard-Light" !default;
+$pretendard-regular: "Pretendard-Regular" !default;
+$pretendard-medium: "Pretendard-Medium" !default;
+$pretendard-bold: "Pretendard-Bold" !default;
 $monospaced: Menlo, Monaco, monospace !default;
 
 @font-face {

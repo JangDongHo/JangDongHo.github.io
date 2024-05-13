@@ -1,34 +1,45 @@
 .post {
   padding: 3rem 0;
+  font-size: 1.1rem;
 
   &-info {
-    color: $default-tint;
-    font-family: $serif-secondary;
+    color: $black;
     letter-spacing: 0.5px;
-    text-align: center;
-
     span {
-      font-style: italic;
+      font-family: $pretendard-medium;
+      font-size: 1.2rem;
+    }
+    time {
+      color: $default-tint;
+      font-size: 0.9rem;
     }
   }
 
   &-title {
     color: $default-shade;
-    font-family: $sans-serif;
+    font-family: $pretendard-medium;
     font-size: 3rem;
     margin: 1rem 0;
-    text-align: center;
   }
 
-  &-line {
-    border-top: 0.4rem solid $default-shade;
-    display: block;
-    margin: 0 auto 3rem;
-    width: 4rem;
+  &-content {
+    // content line
   }
 
   p {
-    margin: 0 0 1rem;
+    margin: 1.5rem 0 1.5rem;
+    text-align: justify;
+    line-height: 1.8;
+  }
+
+  blockquote {
+    border-left: 0.4rem solid $default-tint;
+    color: $black;
+    font-family: $pretendard-regular;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 1.5rem 0 1.5rem;
+    padding: 0 1.5rem;
     text-align: justify;
   }
 
@@ -36,14 +47,20 @@
     text-decoration: underline;
   }
 
+  ul {
+    li {
+      line-height: 1.8;
+    }
+  }
+
   img {
-    margin: 0 auto 0.5rem;
+    margin: 3.5rem auto 3.5rem;
   }
 
   img + em {
     color: $default-tint;
     display: block;
-    font-family: $sans-serif;
+    font-family: $pretendard-medium;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;

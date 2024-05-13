@@ -9,13 +9,20 @@ footer,
 .nav-container {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 650px;
   width: 80%;
+  margin-top: 4rem;
 }
 
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
+  display: block;
+  position: fixed;
+  background-color: $white;
+  top: 0;
+  left: 0;
+  right: 0;
 
   &-container {
     margin: 1rem auto;
@@ -29,6 +36,7 @@ footer,
     display: inline-block;
     margin: 0;
     padding-right: 0.2rem;
+    font-size: 1.2rem;
 
     &:hover,
     &:focus {
@@ -41,17 +49,24 @@ footer,
     margin: 1rem 0 0;
     padding: 0;
     text-align: center;
+    font-size: 0.95rem;
   }
 
   li {
     @include transition(all 0.2s ease-out);
     color: $default-color;
     display: inline-block;
-    opacity: 0.6;
+    opacity: 0.8;
     padding: 0 2rem 0 0;
 
     &:last-child {
       padding-right: 0;
+      a {
+        padding: 5px 10px;
+        background-color: $blue;
+        color: $white;
+        border-radius: 5px;
+      }
     }
 
     &:hover,
@@ -62,7 +77,7 @@ footer,
 
   a {
     color: $default-color;
-    font-family: $sans-serif;
+    font-family: $pretendard-light;
   }
 }
 
@@ -81,7 +96,7 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
+  font-family: $pretendard-regular;
   padding: 2rem 0;
   text-align: center;
 
