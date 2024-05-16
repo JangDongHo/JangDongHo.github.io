@@ -4,10 +4,15 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-tags">
+    {% for tag in page.tags %}
+    <a href="{{ '/tags/' | prepend: site.baseurl }}#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+  </div>
   <div class="post-info">
     <span>{% if page.author %} {{ page.author }} {% else %} {{ site.author.name }} {% endif %} {% if page.date %}</span>
     <br />
-    <time datetime="{{ page.date }}">{{ page.date | date: "%Y. %m. %d" }}</time>
+    <time datetime="{{ page.date }}">{{ page.date | date: "%Y년 %m월 %d일" }}</time>
     {% endif %}
   </div>
   <div class="post-content">{{ content }}</div>

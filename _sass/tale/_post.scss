@@ -2,9 +2,24 @@
   padding: 3rem 0;
   font-size: 1.1rem;
 
+  &-tags {
+    display: flex;
+    margin: 2rem 0;
+    a {
+      color: $default-color;
+      font-family: $pretendard-medium;
+      font-size: 0.8rem;
+      margin-right: 1rem;
+      text-transform: uppercase;
+      background-color: $grey-3;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+    }
+  }
+
   &-info {
     color: $black;
-    letter-spacing: 0.5px;
+    line-height: 0.5;
     span {
       font-family: $pretendard-medium;
       font-size: 1.2rem;
