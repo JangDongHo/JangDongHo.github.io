@@ -33,7 +33,7 @@ Supabase의 가장 큰 장점은 이러한 문제가 생겼을 때 에러 로그
 
 ## DB Connection Pool
 
-> [DBCP (DB connection pool)의 개념부터 설정 방법까지!](https://www.youtube.com/watch?v=zowzVqx3MQ4&t=1657s&ab_channel=%EC%89%AC%EC%9A%B4%EC%BD%94%EB%93%9C)
+> [DBCP (DB connection pool)의 개념부터 설정 방법까지!](https://youtu.be/zowzVqx3MQ4?si=Gu_iGSOYYv89ZL1B)
 
 혹시라도 DB Connection Pool를 처음 들어보았다면 위의 영상부터 본 뒤에 블로그 글을 이어서 보는걸 추천한다.
 이 영상을 보고 난 다음에 문제를 해결하는데 큰 도움이 되었기 때문이다.
