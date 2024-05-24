@@ -136,7 +136,5 @@ Supabase와 같은 서비스는 로그와 모니터링 도구를 통해 문제�
 8. [Spring Boot Hikari Connection Pool 에러 핸들링](https://jgrammer.tistory.com/entry/Spring-Boot-Hikari-Connection-Pool-에러-핸들링)
 9. [NodeJS 와 PostgreSQL Connection Pool](https://jojoldu.tistory.com/634)
 10. [Supavisor 1.0: a scalable connection pooler for Postgres](https://supabase.com/blog/supavisor-postgres-connection-pooler)
-
-[REST API Supabase Docs](https://supabase.com/docs/guides/api)
-
-[[데이터베이스] Connection Pool이란?](https://steady-coding.tistory.com/564)
+11. [REST API Supabase Docs](https://supabase.com/docs/guides/api)
+12. [[데이터베이스] Connection Pool이란?](https://steady-coding.tistory.com/564)
