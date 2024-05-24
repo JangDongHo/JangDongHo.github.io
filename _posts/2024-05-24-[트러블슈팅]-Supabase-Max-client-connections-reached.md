@@ -124,7 +124,7 @@ Supabase와 같은 서비스는 로그와 모니터링 도구를 통해 문제�
 
 # 참고 문서
 
-[Connecting to your database | Supabase Docs](https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pooler)
+[Connecting to your database Supabase Docs](https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pooler)
 
 [JDBC Connection 에 대한 이해, HikariCP 설정 팁](https://jiwondev.tistory.com/291)
 
@@ -132,11 +132,11 @@ Supabase와 같은 서비스는 로그와 모니터링 도구를 통해 문제�
 
 [Pool Modes - supavisor](https://supabase.github.io/supavisor/configuration/pool_modes/)
 
-https://github.com/supabase/supavisor
+[Supavisor Github](https://github.com/supabase/supavisor)
 
 [[Spring Boot] Hikari CP 커스텀으로 성능 최적화하기](https://velog.io/@dongvelop/Spring-Boot-Hikari-CP-커스텀으로-성능-최적화하기)
 
-[HikariCP Dead lock에서 벗어나기 (이론편) | 우아한형제들 기술블로그](https://techblog.woowahan.com/2664/)
+[HikariCP Dead lock에서 벗어나기 (이론편) 우아한형제들 기술블로그](https://techblog.woowahan.com/2664/)
 
 [Spring Boot Hikari Connection Pool 에러 핸들링](https://jgrammer.tistory.com/entry/Spring-Boot-Hikari-Connection-Pool-에러-핸들링)
 
@@ -144,6 +144,6 @@ https://github.com/supabase/supavisor
 
 [Supavisor 1.0: a scalable connection pooler for Postgres](https://supabase.com/blog/supavisor-postgres-connection-pooler)
 
-[REST API | Supabase Docs](https://supabase.com/docs/guides/api)
+[REST API Supabase Docs](https://supabase.com/docs/guides/api)
 
 [[데이터베이스] Connection Pool이란?](https://steady-coding.tistory.com/564)
