@@ -126,25 +126,16 @@ Supabase와 같은 서비스는 로그와 모니터링 도구를 통해 문제�
 
 # 참고 문서
 
-[Connecting to your database Supabase Docs](https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pooler)
-
-[JDBC Connection 에 대한 이해, HikariCP 설정 팁](https://jiwondev.tistory.com/291)
-
-[DBCP (DB connection pool)의 개념부터 설정 방법까지! hikariCP와 MySQL을 예제로 설명합니다! 이거 잘 모르면 힘들..](https://www.youtube.com/watch?v=zowzVqx3MQ4&t=1657s&ab_channel=쉬운코드)
-
-[Pool Modes - supavisor](https://supabase.github.io/supavisor/configuration/pool_modes/)
-
-[Supavisor Github](https://github.com/supabase/supavisor)
-
-[[Spring Boot] Hikari CP 커스텀으로 성능 최적화하기](https://velog.io/@dongvelop/Spring-Boot-Hikari-CP-커스텀으로-성능-최적화하기)
-
-[HikariCP Dead lock에서 벗어나기 (이론편) 우아한형제들 기술블로그](https://techblog.woowahan.com/2664/)
-
-[Spring Boot Hikari Connection Pool 에러 핸들링](https://jgrammer.tistory.com/entry/Spring-Boot-Hikari-Connection-Pool-에러-핸들링)
-
-[NodeJS 와 PostgreSQL Connection Pool](https://jojoldu.tistory.com/634)
-
-[Supavisor 1.0: a scalable connection pooler for Postgres](https://supabase.com/blog/supavisor-postgres-connection-pooler)
+1. [Connecting to your database Supabase Docs](https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pooler)
+2. [JDBC Connection 에 대한 이해, HikariCP 설정 팁](https://jiwondev.tistory.com/291)
+3. [DBCP (DB connection pool)의 개념부터 설정 방법까지! hikariCP와 MySQL을 예제로 설명합니다! 이거 잘 모르면 힘들..](https://www.youtube.com/watch?v=zowzVqx3MQ4&t=1657s&ab_channel=쉬운코드)
+4. [Pool Modes - supavisor](https://supabase.github.io/supavisor/configuration/pool_modes/)
+5. [Supavisor Github](https://github.com/supabase/supavisor)
+6. [[Spring Boot] Hikari CP 커스텀으로 성능 최적화하기](https://velog.io/@dongvelop/Spring-Boot-Hikari-CP-커스텀으로-성능-최적화하기)
+7. [HikariCP Dead lock에서 벗어나기 (이론편) 우아한형제들 기술블로그](https://techblog.woowahan.com/2664/)
+8. [Spring Boot Hikari Connection Pool 에러 핸들링](https://jgrammer.tistory.com/entry/Spring-Boot-Hikari-Connection-Pool-에러-핸들링)
+9. [NodeJS 와 PostgreSQL Connection Pool](https://jojoldu.tistory.com/634)
+10. [Supavisor 1.0: a scalable connection pooler for Postgres](https://supabase.com/blog/supavisor-postgres-connection-pooler)
 
 [REST API Supabase Docs](https://supabase.com/docs/guides/api)
 
