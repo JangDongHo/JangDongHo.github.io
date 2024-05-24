@@ -70,6 +70,8 @@ Spring Boot 2.0 이후부터는 이 커넥션 풀을 관리하기 위해 [Hikari
 이 HikariCP의 `minimumIdle` 과 `maximumPoolSize` 의 기본 값은 10이다.
 즉, 아무 요청도 안 보내고 서버를 켜두기만 해도 10개의 커넥션을 DB랑 미리 연결해두겠다는 말이다.
 
+두 개의 스프링부트 서버에서 각각 10개의 커넥션을 요청하면 총합 20개로, Supavisor의 default pool size인 15를 초과하면서 `Max Client Connections Reached` 에러를 내뱉는 것이다.
+
 ![](https://velog.velcdn.com/images/dongho18/post/2b1db4ad-7e7a-47c1-93f6-97c3c7e13bce/image.png)
 
 이제 이 문제를 해결하기 위해 두 가지 방법 중 한가지를 택할 수 있다.
